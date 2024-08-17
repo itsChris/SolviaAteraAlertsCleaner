@@ -1,5 +1,3 @@
-# SolviaAteraAlertsCleanerSure! Below is a sample `README.md` for your GitHub repository.
-
 ```markdown
 # Atera Alerts Cleaner
 
