@@ -1,4 +1,3 @@
-```markdown
 # Atera Alerts Cleaner
 
 ## Overview
