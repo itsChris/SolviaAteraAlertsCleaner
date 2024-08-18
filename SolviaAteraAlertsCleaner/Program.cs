@@ -88,7 +88,7 @@ class Program
                                           $"Polling Cycles Count: {(alert.PollingCyclesCount.HasValue ? alert.PollingCyclesCount.ToString() : "N/A")}");
 
                         // Check if the CustomerID is 8
-                        if (alert.CustomerID == 8)
+                        if (alert.CustomerID == 3 && alert.Title.ToLower().StartsWith("failed login attempts") && alert.DeviceName.ToLower().StartsWith("refpc"))
                         {
                             // Delete the alert
                             string deleteUrl = $"{apiUrlDelete}/{alert.AlertID}";
